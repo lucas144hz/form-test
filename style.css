@@ -16,7 +16,7 @@ font-family: 'Poppins', sans-serif;
 
 section {
   position: relative;
-top: 6px;
+top: 40px;
 left: 10px;
 align-items: center;
 color: black;
@@ -34,16 +34,16 @@ h1{
 p {
   color: black;
  margin-bottom: 6px;
-  margin-left: 10px;
+  margin-left: 24px;
   font-size: 15px;
-  color: rgb(169, 236, 236);
+  color: rgb(243, 240, 240);
 }
 
 .input {
   max-width: 100px;
   min-width: 280px;
 border: #2f3d74 solid;
-border-radius: 15px;
+border-radius: 10px;
 padding: 5px;
 margin: 0px 0px 20px -5px;
 background-color: rgb(255, 255, 255);
