@@ -4,60 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>formulario-vendas</title>
+    <title>log in</title>
     <link rel="stylesheet" href="./style.css" />
     <link
       href="https: //fonts.googleapis.com/css2? family= Roboto+Mono & family= Roboto:wght@500;700 & display=swap"
       rel="stylesheet"
     />
-    </head>
-    <body>
-      <div>
-        <h1>Cadastramento de venda de bois</h1>
-        <p>Preencha os campos com os dados requeridos!</p>
-      </div>
-      <section>
-      <div class="form">
-    <form action="add_venda.php" method="post">
+  </head>
+  <body>
+    <input
+      type="hidden"
+      name="_next"
+      value="https://lucas144hz.github.io/form-test/"
+    />
 
-    
-        <div class="input">
-          <input id="numero" placeholder="Numero do boi" type="number" name="numero_do_boi"  required />
+    <div class="container">
+      <form >
+        <h1>Entrar</h1>
+        <div>
+          <input type="email" name="email" placeholder="E-mail" required id="email"/>
         </div>
-    
-    
-        <div class="input">
-          <input type="number" id="peso" name="peso_do_boi" placeholder="Peso do boi" />
+
+        <div>
+          <input type="password" name="senha" placeholder="Senha" id="senha"/>
         </div>
-    
-  
-        <div class="input">
-          <input type="date" nome="data_da_pesagem" id="data-de-peso" />
-        </div>
-     
 
-
-        <div class="input">
-          <input type="date" nome="data_de_venda" id="data" />
-        </div>
-     
-<div class="from">
-<label>Informacoes sobre comprador</label>
-<select id="info">
-<option>Max beef</option>
-
-<option>Frisa</a> </option>
-
-<option>Montanha</option>
-</select>
-</div>
-
-      </div>
-      <div class="button">
-        <button type="submit">Salvar</button>
-      </div>
-      </section>
-    </form>
- 
-</body>
+        <button type="submit" onclick="logar (); return false">Entrar</button>
+      </form>
+    </div>
+  </body>
+  <script src="./script.js"></script>
 </html>
